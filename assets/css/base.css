@@ -1,0 +1,109 @@
+:root{
+    --white-color:#fff;
+    --home-extension:408px;
+    --pages-extension:340px;
+    --destinations-extension:164px;
+    --tours-extension:200px;
+    --blog-extension:164px;
+    --shop-extension:200px;
+    --element-extension:464px;
+    --bar-right:458px;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+.col-fourth{
+    float:left;
+    width: 25%;
+}
+
+html{
+    font-size:62.5%;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.6rem;
+    width: 1219px;
+    max-width: 100%;
+}
+
+.grid{
+    max-width: 100%;
+
+}
+
+.grid__row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.grid__column--20{
+    display: flex;
+    justify-content: center;
+    width: 22.5%;
+}
+
+.clear{
+    clear: both;
+}
+
+@keyframes slideSmooth{
+    from{
+        opacity: 0;
+        width: 0;
+    }to{
+        opacity: 1;
+        width: 100%;
+    }
+}
+
+@keyframes spread{
+    from{
+        height: 0;
+    }to{
+        height: 100%;
+    }
+}
+
+@keyframes spread1{
+    from{
+        height: 0;
+    }to{
+        height: var(--element-extension);
+    }
+}
+
+@keyframes spreadX{
+    from{
+        width: 0;
+    }to{
+        width: 100%;
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn{
+    from{
+        transform: scale(1.1);
+    }to{
+        transform: scale(1.3);
+    }
+}
+
+@keyframes surfUp{
+    from{
+        opacity: 0;
+        top:164px;
+    }to{
+        opacity: 1;
+        top:84px;
+    }
+}
