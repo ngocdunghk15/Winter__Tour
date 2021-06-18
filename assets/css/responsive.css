@@ -1,0 +1,31 @@
+@media (max-width:1200px){
+    .slider .carousel-control-prev{
+        display: none;
+    }
+    
+    .slider .carousel-control-next{
+        display: none;
+    } 
+    
+    .carousel-inner{
+        height: auto;
+    }
+
+    .slider__text .slider__text--decorate{
+        font-family: 'Satisfy',sans-serif;
+        font-size:3.2em;
+        line-height: 58px;
+    }
+    
+    .slider__text .slider__text--title{
+        line-height: 124px;
+        font-size: 9.0em;
+        font-weight: 600;
+    }
+    
+    .slider__text .slider__text--detail{
+        font-size: 1.4em;
+        line-height: 24px;
+        margin-top: 8px;
+    }
+}
