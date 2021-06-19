@@ -1109,8 +1109,8 @@
 .winter-resort .winter-resort__content .wrap-winter-resort__img--star .star-circle{
     position: absolute;
     height: 4.8rem;
-    top:15px;
-    right:43px;
+    top:3%;
+    right:13%;
     width: 4.8rem;
     border-radius: 50%;
     display: flex;
