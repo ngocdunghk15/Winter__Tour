@@ -203,8 +203,8 @@
 .accordion-body,
 .accordion-header{
     width: 768px;
+    max-width: 90%;
     margin: auto;
-
 }
 
 
