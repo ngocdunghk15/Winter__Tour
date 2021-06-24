@@ -87,6 +87,7 @@ html{
         opacity: 0;
     }to{
         opacity: 1;
+        display: block;
     }
 }
 
@@ -107,3 +108,4 @@ html{
         top:84px;
     }
 }
+
