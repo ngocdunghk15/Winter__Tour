@@ -17,6 +17,7 @@
 }
 
 @media (max-width:64em){
+    
 .slider{
     margin-top: 70px;
 }
@@ -85,17 +86,6 @@
     display: none;
 }
 
-.winter-resort .winter-resort__content .wrap-winter-resort__img--normal{
-    margin: 0 100px;
-    margin-top: 32px;
-
-}
-
-.winter-resort .winter-resort__content .wrap-winter-resort__img--star{
-    position: relative;
-    margin: 0 100px;
-    margin-top: 32px;
-}
 
 .service .service__header{
     max-width: 80%;
@@ -157,6 +147,7 @@
     width: 308px;
     margin: auto;
     background-color: #3abdc1;
+    overflow: scroll;
 }
 
 .input--login:checked ~ .overlay--login{
@@ -588,6 +579,18 @@
 @media (min-width:46.25em) and (max-width:64em){
     
 
+.winter-resort .winter-resort__content .wrap-winter-resort__img--normal{
+        margin: 0 100px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+}
+    
+.winter-resort .winter-resort__content .wrap-winter-resort__img--star{
+        position: relative;
+        margin: 0 100px;
+        margin-top: 32px;
+}
+
 .slider__text .slider__text--decorate{
     font-size:2.8em;
     line-height: 58px;
@@ -613,7 +616,6 @@
 }
 
 .winter-resort .winter-resort__content .wrap-winter-resort__img--star{
-    width: 40%;
     height: 40%;
 }
 
@@ -645,6 +647,14 @@
     height: 30%;
     bottom: -168px;
 }
+
+.winter-resort .winter-resort__content .wrap-winter-resort__img--normal{
+}
+
+.winter-resort .winter-resort__content .wrap-winter-resort__img{
+    width: 334px;
+    height: 334px;
+}
 }
 
 @media (max-width: 37.5em){
@@ -652,4 +662,5 @@
     height: 20%;
     bottom: -168px;
 }
+
 }
