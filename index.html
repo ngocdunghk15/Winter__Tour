@@ -945,7 +945,7 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <div class="modal-login">
                                 <div class="modal__header">
                                     <h1>Sign In Here!</h1>
@@ -989,6 +989,8 @@
                                 </div>
                             </div>
                         </div>
+               
+
                         <div class="tab-pane " id="profile" role="tabpanel" aria-labelledby="profile-tab">
                             <div class="modal-register">
                                 <div class="modal__header">
@@ -1047,8 +1049,8 @@
                       <div class="slider__text" data-bs-interval="5000">
                         <span class="slider__text--decorate">Enjoy Your</span>
                         <br>
-                        <span class="slider__text--title">Winter Vacations</span>
-                        <p class="slider__text--detail">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula <br> eget dolor. Aenean massa. Cum sociis Theme</p>
+                        <span class="slider__text--title"><strong>Winter</strong> <strong>Vacations</strong> </span>
+                        <p class="slider__text--detail"> <span>Lorem ipsum dolor sit amet,</span> <span>consectetuer adipiscing elit.</span> <span>Aenean commodo ligula <br> eget dolor. Aenean massa. Cum sociis Theme</span></span></p>
                         <div class="clear"></div>
                     </div>
                   </div>
@@ -1061,8 +1063,8 @@
                     <div class="slider__text" data-bs-interval="5000">
                         <span class="slider__text--decorate">From Alps</span>
                         <br>
-                        <span class="slider__text--title">Snow Adventure</span>
-                        <p class="slider__text--detail">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula <br> eget dolor. Aenean massa. Cum sociis Theme</p>
+                        <span class="slider__text--title"><strong>Snow</strong> <strong>Adventure</strong> </span>
+                        <p class="slider__text--detail"><span>Lorem ipsum dolor sit amet,</span> <span>consectetuer adipiscing elit.</span> <span>Aenean commodo ligula <br> eget dolor. Aenean massa. Cum sociis Theme</span></p>
                     </div>
                   </div>
                   
@@ -1596,7 +1598,7 @@
             <div class="winter-resort__header">
                 <span>Choose Your</span>
                 <h1>Winter Resort</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br> Aenean commodo ligula eget dolor lorem ipsum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</p>
             </div>
             <div class="winter-resort__content">
                 <div class="wrap-winter-resort__img wrap-winter-resort__img--normal">
@@ -1659,17 +1661,20 @@
                 <div class="col-fourth footer__col--third">
                     <h2>Subscribe to our Newsletter</h2>
                     <p>Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</p>
-                    <div class="footer__send">
-                        <div class="footer__send-username">
-                            <i class="fas fa-user"></i>
-                            <input type="text" placeholder="Username">
-                        </div>
-                        <div class="footer__send-email">
-                            <i class="far fa-envelope"></i>
-                            <input type="email" placeholder="Email">
-                        </div>
-                        <button class="btn btn-danger btn--subscribe">SUBSCRIBE</button>
+                    <form action="">
+                        <div class="footer__send">
+                            <div class="footer__send-username">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Username" required>
+                            </div>
+                            <div class="footer__send-email">
+                                <i class="far fa-envelope"></i>
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                            <button class="btn btn-danger btn--subscribe">SUBSCRIBE</button>
+                       
                     </div>
+                    </form>
                 </div>
                 <div class="col-fourth footer__col--fourth">
                     <h2>Our Instagram</h2>

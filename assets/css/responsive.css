@@ -141,13 +141,12 @@
     display: none;
     position:fixed;
     left: 50%;
-    top:24px;
-    transform: translateX(-50%);
+    top:50%;
+    transform: translate(-50%,-50%);
     height: auto;
     width: 308px;
     margin: auto;
     background-color: #3abdc1;
-    overflow: scroll;
 }
 
 .input--login:checked ~ .overlay--login{
@@ -190,6 +189,7 @@
 }
 
 .tab-content>.active{
+    height: auto;
     background-color: #3fd0d4;
 }
 
@@ -344,7 +344,6 @@
 }
 
 .modal-login{
-    position: absolute;
     background-color: #3fd0d4;
     color:var(--white-color);
 }
@@ -577,7 +576,24 @@
 }
 
 @media (min-width:46.25em) and (max-width:64em){
-    
+     
+.footer .footer__col--second{
+    padding-left: 48px;
+}
+
+.footer .footer__col--fourth{
+    margin-top: 56px;
+    padding-left: 48px;
+}
+
+.footer .footer__col--third{
+    padding-left:0;
+    margin-top: 56px;
+}
+
+.footer .col-fourth{
+    width: 50%;
+}
 
 .winter-resort .winter-resort__content .wrap-winter-resort__img--normal{
         margin: 0 100px;
@@ -633,7 +649,61 @@
 
 }
 
-@media (max-width:48em){
+@media (max-width:47.75em){
+.winter-resort .winter-resort__header h1{
+    font-size: 8rem;
+}
+
+.slider__text .slider__text--detail{
+    display: flex;
+    max-width: 100%;
+    font-size: 1.3rem;
+    flex-direction: column;
+}
+
+.slider__text .slider__text--decorate{
+    font-size: 2.4rem;
+}
+
+.slider__text .slider__text--title{
+    font-size: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 6.4rem;
+}
+
+.slider__text .slider__text--title strong{
+    display: block;
+}
+
+.service .service__content{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contain .item img{
+    width: 100%;
+}
+
+
+.footer .col-fourth{
+     width: 100%;
+     padding-left: 0;
+     margin-bottom: 64px;
+}
+
+.advertisement .advertisement__video .advertisement_video-link iframe{
+    width: 724px;
+    max-width: 98%;
+    height: 200px;
+    box-shadow: 5px 8px 13.92px 2.08px rgb(0,0,0,0.06);    
+}
+
+.advertisement .advertisement__video{
+    max-width:98%;
+}
+
 .statistic .inner-width{
         flex-wrap: wrap;
     }
