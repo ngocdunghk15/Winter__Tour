@@ -576,6 +576,16 @@
 }
 
 @media (min-width:46.25em) and (max-width:64em){
+    .winter-resort .winter-resort__content .wrap-winter-resort__img--star{
+        width: 40%;
+        height: 40%;
+        margin-bottom: 40px;
+    }
+
+    .winter-resort .winter-resort__content .wrap-winter-resort__img{
+        margin-bottom: 40px;
+    }
+
      
 .footer .footer__col--second{
     padding-left: 48px;
