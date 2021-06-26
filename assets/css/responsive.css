@@ -650,6 +650,11 @@
 }
 
 @media (max-width:47.75em){
+.to-top-button{
+    right: 12px;
+    bottom: 12px;
+}   
+
 .winter-resort .winter-resort__header h1{
     font-size: 8rem;
 }
