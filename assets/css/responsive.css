@@ -650,6 +650,10 @@
 }
 
 @media (max-width:47.75em){
+.contain .item img{
+    height: auto;
+}
+
 .to-top-button{
     right: 8px;
     bottom: 8px;
