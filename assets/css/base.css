@@ -16,6 +16,7 @@ html{
     line-height: 1.6rem;
     max-width: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 *{
