@@ -253,10 +253,10 @@
 
 .navibar__item .navibar__extension--element{
     width: 100vw;
-    left: -962px;
+    position: absolute;
+    right:  -207.5px;
     top:48px;
     height: var(--element-extension);
-    position: absolute;
     /* background-color: var(--white-color); */
     background-color: white;
     display: none;
