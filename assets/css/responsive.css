@@ -225,6 +225,7 @@
 
 .sidebar__tablet{
     height: auto;
+    max-height: 100vh;
     position: fixed;
     overflow: scroll;
     top: 70px;
